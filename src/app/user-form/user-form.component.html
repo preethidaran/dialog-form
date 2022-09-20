@@ -30,7 +30,7 @@
         </mat-radio-group>
         <br /> <br />
 
-        <!-- doubt -->
+        <!-- doubt  why checkbox is not showing-->
 
         <mat-label>Status</mat-label> &nbsp;
         <section class="example-section">
@@ -38,21 +38,10 @@
             </mat-checkbox> &nbsp;
             <mat-checkbox [formControl]="checkboxFormControl" class="example-margin" [(ngModel)]="check">Indeterminate
             </mat-checkbox>
-        </section>
-
-        <br><br>
-
-
-
-
+        </section><br><br>
 
         <button type="submit" mat-raised-button color="primary">Submit</button> &nbsp;&nbsp;
         <button mat-raised-button color="warn" (click)="close()">Close</button>
 
     </form>
-
-
-
-
-
 </div>
